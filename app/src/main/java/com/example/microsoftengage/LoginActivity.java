@@ -53,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         dialog.dismiss();
                             if (task.isSuccessful()) {
-                                startActivity(new Intent(LoginActivity.this, DashboardActivity.class));
+                                startActivity(new Intent(LoginActivity.this, ChoiceActivity.class));
                             } else {
                                 Toast.makeText(LoginActivity.this, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                             }

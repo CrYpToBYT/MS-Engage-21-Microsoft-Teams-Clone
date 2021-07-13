@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back1"
+    android:background="@drawable/back3"
     tools:context=".SignupActivity">
 
     <androidx.cardview.widget.CardView
@@ -82,8 +82,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/stylebtn2"
+                android:fontFamily="@font/abril_fatface"
                 android:text="Create an account"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000" />
 
             <Button
                 android:id="@+id/loginbtn"
@@ -92,6 +94,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/stylebtn2"
+                android:fontFamily="@font/abril_fatface"
                 android:text="Already have an account"
                 android:textColor="#FFFFFF" />
 
